@@ -13,8 +13,4 @@ Cenário: Login com sucesso
 Cenário: Login com falha devido a senha ou usuario incorreta
     Dado que eu estou na página de login
     Quando eu insiro meu nome de usuário "Fabiano" e minha senha "124578"
-    E eu clico no botão de login
-    Então eu devo ver uma mensagem de erro "Usuário ou senha incorretos"
-
-    
- 
+     Então eu devo ver uma mensagem de erro "Usuário ou senha incorretos"
