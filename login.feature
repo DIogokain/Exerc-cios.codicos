@@ -8,6 +8,7 @@ Funcionalidade: Login na plataforma de roupa
 Cenário: Login com sucesso
     Dado que eu estou na página de login
     Quando eu insiro meu nome de usuário "Fabiano" e minha senha "123456"
+     Então deve sugir uma mensagem "sucesso no login"
      
 Cenário: Login com falha devido a senha ou usuario incorreta
     Dado que eu estou na página de login
